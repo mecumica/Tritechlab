@@ -607,4 +607,399 @@
   }
 }
 /* Escritorio pequeño / tablet */
+@media only screen and (min-width: 575px) and (max-width: 991px) {
+  .titulo-header {
+    height: 35vh;
+    background-color: #0B3C5D;
+    width: 30%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 1px 5px 5px rgb(14, 14, 14);
+    margin: 0 50px 30px 0;
+  }
+  .titulo-header h1 {
+    font-size: 70px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", sans-serif;
+    letter-spacing: 5px;
+    font-weight: bold;
+  }
+  .titulo-header h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .titulo-header .btn-header {
+    background-color: #328CC1;
+    width: 50%;
+    height: 20%;
+    font-size: 20px;
+    border: none;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    left: 150px;
+  }
+  .titulo-header .btn-header span {
+    color: #E9E7DA;
+    text-shadow: black 2px 2px 5px;
+  }
+  /*fin-header*/
+  /*section-1*/
+  .section-1 {
+    height: 700px;
+    display: grid;
+    grid-template-rows: repeat(2, 2fr);
+  }
+  .section-1 .formas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+  }
+  .section-1 .formas .cuadrado-1 {
+    height: 400px;
+    width: 400px;
+    border: solid #0B3C5D 8px;
+  }
+  .section-1 .formas .cuadrado-1 .circulo-1 {
+    background-image: url(./img/impresion3d.jpg);
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 50px;
+    top: 20px;
+  }
+  .section-1 .formas .cuadrado-2 {
+    height: 400px;
+    width: 400px;
+    background-color: #0B3C5D;
+  }
+  .section-1 .formas .cuadrado-2 .circulo-2 {
+    background-image: url(./img/diseño\ y\ desarrollo.jpg);
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 50px;
+    top: 20px;
+  }
+  .imagen-fondo {
+    background-image: url(./img/Cliente.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  .titulo-imagen {
+    color: #E9E7DA;
+    text-align: center;
+    padding-top: 2em;
+    font-weight: 600;
+    font-size: 70px;
+    text-shadow: black 1px 2px 5px;
+  }
+  .texto-s1 {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .texto-s1 .box-text h2 {
+    color: black;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+  .texto-s1 .box-text p {
+    color: black;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  /*fin section-1*/
+  /*section-2*/
+  .section-2 {
+    background-color: #E9E7DA;
+    height: 600px;
+  }
+  .card-deck {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .card-deck .card {
+    width: 400px;
+    height: 400px;
+  }
+  .card-deck .card .card-body {
+    display: flex;
+    background-image: none;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: #328CC1;
+  }
+  .card-deck .card .card-body h5 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .card-deck .card .card-body p {
+    display: none;
+  }
+  .card-deck .card-body:hover {
+    background-color: #0B3C5D;
+    display: flex;
+    background-image: none;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 1px 2px 5px black;
+  }
+  .card-deck .card-body:hover h5 {
+    color: #328CC1;
+    text-align: center;
+  }
+  .card-deck .card-body:hover p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px;
+    text-align: center;
+    display: inherit;
+  }
+  /*fin-section-2*/
+  /*section-2*/
+  .section-3 {
+    background-color: #0B3C5D;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .section-3 h2 {
+    color: #E9E7DA;
+    text-align: center;
+    font-size: 30px;
+    height: auto;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 5px black;
+  }
+  .box-numeros {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    height: 250px;
+  }
+  .box-numeros .numero {
+    background-color: #328CC1;
+    margin: 5px;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 1px 2px 5px black;
+  }
+  .box-numeros .numero h3 {
+    font-size: 100px;
+    text-shadow: 1px 2px 5px black;
+  }
+  .box-numeros .numero h5 {
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  /*fin-section-3*/
+  .section-4 {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .section-4 .texto-s4 {
+    font-family: "Roboto Condensed", sans-serif;
+    width: 500px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 10px 20px;
+    width: 50%;
+  }
+  .section-4 .texto-s4 h2 {
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+  }
+  .section-4 .texto-s4 h5 {
+    font-weight: 500;
+    text-transform: uppercase;
+    color: black;
+    font-size: 70px;
+  }
+  .section-4 .texto-s4 p {
+    font-size: 30px;
+    color: black;
+    font-weight: 500;
+  }
+  .section-4 .img-s4 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 50%;
+  }
+  .section-4 .img-s4 img {
+    max-height: 600px;
+    width: auto;
+  }
+  .ideas {
+    height: 50vh;
+    background-color: #0B3C5D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ideas .cotiza-ideas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .ideas .cotiza-ideas h2 {
+    font-size: 70px;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  .ideas .cotiza-ideas button {
+    background-color: #328CC1;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 30%;
+  }
+  .imagen-fondo2 {
+    background-image: url(./img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contacto {
+    height: 80vh;
+    background-color: #328CC1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contacto .contacto-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .contacto .contacto-texto h2 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 70px;
+  }
+  .contacto .contacto-texto ul {
+    text-align: center;
+    line-height: 60px;
+  }
+  .contacto .contacto-texto ul li {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 30px;
+  }
+  .contacto .contacto-texto button {
+    background-color: #0B3C5D;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 30%;
+  }
+  .pie-pagina {
+    width: 100%;
+    background-color: #D9B310;
+  }
+  .pie-pagina h2 {
+    margin-top: auto;
+    margin-left: auto;
+  }
+  .pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid: gap 50px;
+    padding: 25px 0px;
+  }
+  .pie-pagina .grupo-1 .box a {
+    list-style: none;
+    color: #E9E7DA;
+  }
+  .pie-pagina .grupo-1 .box h2 {
+    color: #E9E7DA;
+    margin-bottom: 15px;
+    font-size: 30px;
+  }
+  .pie-pagina .grupo-1 .box h3 {
+    color: #328CC1;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .pie-pagina .red-social {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-top: 50px;
+  }
+  .pie-pagina .red-social span {
+    font-size: 75px;
+  }
+}
 /* Teléfonos *//*# sourceMappingURL=style.css.map */
